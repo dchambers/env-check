@@ -1,0 +1,32 @@
+{
+  "name": "env-check",
+  "version": "0.0.1",
+  "description": "Environment variable checker command",
+  "bin": {
+    "envcheck": "./bin/envcheck.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchambers/env-check.git"
+  },
+  "keywords": [
+    "Environment",
+    "variable",
+    "conditional",
+    "checker",
+    "pre-condition"
+  ],
+  "author": "Dominic Chambers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchambers/env-check/issues"
+  },
+  "homepage": "https://github.com/dchambers/env-check#readme",
+  "dependencies": {
+    "check-env": "^1.2.0",
+    "colors": "^1.1.2"
+  }
+}
